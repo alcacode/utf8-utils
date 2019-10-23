@@ -1,6 +1,6 @@
 # utf8
 
-Utilities to encode/decode to/from UTF-8 from JavaScript strings (UTF-16).
+Utilities to encode JavaScript characters (UTF-16) as UTF-8 character codes, and to decode UTF-8 character codes to UTF-16 encoded strings.
 
 ## encodeUTF8
 
