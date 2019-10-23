@@ -1,0 +1,13 @@
+{
+        "compilerOptions": {
+                "target": "es5",
+                "strict": true,
+                "noImplicitAny": true,
+                "composite": true,
+                "outDir": "./build",
+                "removeComments": true
+        },
+        "include": [
+                "./utf8.ts"
+        ]
+}
