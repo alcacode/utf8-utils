@@ -2,7 +2,7 @@
 
 Utilities to encode JavaScript characters (UTF-16) as UTF-8 character codes, and to decode UTF-8 character codes to UTF-16 encoded strings.
 
-## encodeUTF8
+## encodeUTF8(char)
 
 Converts a UTF-16 encoded character (as in, the first character of a string) to a UTF-8 character code.
 
@@ -26,7 +26,7 @@ Throws `Error` when a high surrogate is found without corresponding low surrogat
 encodeUTF8("€") // 111000101000001010101100 (base 2)
 ```
 
-## decodeUTF8
+## decodeUTF8(charCode)
 
 Converts a UTF-8 character code to a UTF-16 encoded string.
 
